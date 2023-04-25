@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<link rel="stylesheet" href="todolist.css">
+<body>
+    <header>
+        <h1>To do List</h1>
+     <div class="hedtask">
+           <span class="count numoftasks"></span>
+           <span style="background-color: rgb(165, 143, 20);" class="count numoftasksdoing  "></span>
+           <span style="background-color: rgb(11, 226, 29);" class="count numoftasksdone "></span>
+     </div>
+    </header>
+    
+    <div class="container">
+        <form >
+            <h2 class="autowrite"> </h2><br>
+            <input  type="text" placeholder="Enter a new task">
+            <button class="add" type="submit">ADD+</button>
+        
+            <div class="empty"></div>
+        </form>
+      
+     <div class="allboxs">
+         
+
+             <div class="tasks box">
+            <h2>  TODO</h2>
+
+             </div>
+         
+        
+           
+
+
+            <div class="tasksdoing box">
+            <h2>  DOING</h2>
+
+            </div>
+          
+        
+
+            <div class="donetasks box">
+            <h2>  DONE</h2>
+
+            </div>
+          
+     </div>
+
+    </div >
+    <div class="clock" id="clock"></div>
+
+    <script src="todolist.js"></script>
+</body>
+</html>

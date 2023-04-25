@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+scroll-behavior: smooth;
+}
+body{
+
+   
+   
+
+   background-color: rgb(16, 16, 56);
+  
+}
+/* header css details */
+header{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(22, 212, 212, 0.5);
+    color: aliceblue;
+font-size:20px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: space-between;
+
+
+}
+
+h1{
+    padding: 10px;
+    width: 25%px;
+}
+/* header counter css details */
+.hedtask{
+   display: flex;
+  
+}
+
+.count{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #121212;
+    background-color: rgb(148, 22, 206);
+    text-align: center;
+    margin: 10px;
+    padding: 12px;
+    color: #414d44;
+
+    
+}
+.clock{
+    height: 100px;
+    width: 150px;
+     border: 1px solid black;
+     background-color: rgba(22, 212, 212, 0.5);
+ 
+     text-align: center;
+ padding-top: 15px;
+  font-size: 20px;
+  font-weight: 800;
+  font-style: oblique;
+  letter-spacing:3px ;
+  border-radius: 50px 10px;
+  position: absolute;
+  top: 70px;
+  color: #faf5f5;
+  
+ }
+/* (form) and (ul) details */
+.container{
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+ 
+    text-align: center;
+}
+/* input , (add) button and (clear all) css details */
+input{
+    width: 400px;
+    height: 70px;
+
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20px;
+    background-color: rgb(210, 191, 223);
+    color: rgb(5, 5, 5);
+border-radius: 20px 50px;
+text-align: center;
+
+
+
+}
+.add{
+    background-color: rgb(71, 17, 158);
+color: aliceblue;
+font-weight: bold;
+padding: 3px;
+border-radius: 5px;
+border: none;
+
+}
+.empty{
+    background-color: #a30c96;
+    color: #312828;
+    width: 200px;
+   margin: auto;
+  
+border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+   
+}
+/* boxs css details */
+
+.allboxs{
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start ;
+
+}
+
+h2{
+    width: 100%;
+    color: #faf5f5;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+  border-radius: 5px;
+}
+
+
+/* ul css detalis */
+
+.box{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-weight: bold;
+    list-style:none ;
+    margin-top:  30px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #fcf5f5;
+    border-radius: 15px;
+text-align: center;
+}
+.box li{
+   border: 2px solid;
+ 
+   margin-left: 10px;
+   margin-right: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   cursor: move;
+   border-radius: 5px;
+   background-color: #21472b;
+   border-radius: 15px;
+  
+
+}
+span.taskcontent{
+margin: 15px;
+
+width: 80%;
+
+}
+span.dlt{
+    margin: 17px;
+    width: 20px;
+    height: 22px;
+    border: 1 solid #121212;
+    border-radius: 5px;
+    background-color: red;
+    }
+
+/* scrollbar css details */
+/* width */
+::-webkit-scrollbar {
+    width: 20px;  box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+  /* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(136, 23, 23); 
+    border-radius: 10px;
+    background-color: aqua;
+  }
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(13, 223, 65); 
+    border-radius: 10px;
+    
+  }
+/* clock css detalis */
+ 
+
+  
