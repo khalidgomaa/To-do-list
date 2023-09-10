@@ -179,20 +179,28 @@ let drag=null; //for drag and drop function
             })
             box.addEventListener("drop",function(){
                 box.appendChild(drag)
-                
-                if(box===tasksdoing){
+                switch(box){
+                case tasksdoing :{
                     box.style.backgroundColor = "rgb(165, 143, 20,.5)"
 
                 }
-                else if (box===donetasks) {
+                break ;
+                case donetasks :{
                     box.style.backgroundColor = "rgb(11, 226, 29)"
-                 
-                } else {
+
+                    let popup = document.querySelector(".popup");
+                    popup.classList.add("active");
+
+                   setTimeout(function() {
+                   popup.classList.remove("active");
+                     }, 3000)}
+                   break;
+                 default: {
                     tasksdoing.style.backgroundColor ="rgb(16, 16, 56);"
                     donetasks.style.backgroundColor ="rgb(16, 16, 56);"
                     tasks.style.backgroundColor ="rgb(16, 16, 56);"
                     
-                }    
+                }   } 
            
                 
                 numoftasks.innerHTML=tasks.children.length-1 //to count the tasks 
